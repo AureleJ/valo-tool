@@ -144,7 +144,7 @@ export default function InteractiveMap({imagePath, setImageCoord}) {
     };
 
     return (
-        <div className="relative w-2/3">
+        <div className="relative w-full">
             <div
                 ref={containerRef}
                 className={`rounded-lg overflow-hidden aspect-square cursor-crosshair flex justify-center items-center bg-gray-800 shadow-lg border border-gray-700 ${

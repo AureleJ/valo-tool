@@ -8,9 +8,23 @@ export default {
         extend: {
             colors: {
                 emerald: {
+                    300: '#6ee7b7',
                     500: '#10b981',
                     600: '#059669',
                     800: '#065f46',
+                },
+                blue: {
+                    500: '#3b82f6',
+                    600: '#2563eb',
+                },
+                yellow: {
+                    500: '#eab308',
+                    600: '#ca8a04',
+                },
+                red: {
+                    500: '#ef4444',
+                    600: '#dc2626',
+                    800: '#991b1b',
                 },
             },
             keyframes: {
@@ -26,8 +40,8 @@ export default {
                 }
             },
             animation: {
-                notification: 'notification 5s ease-in-out forwards',
-                shrink: 'shrink 4.5s linear forwards',
+                notification: 'notification 2s ease-in-out forwards',
+                shrink: 'shrink 1.5s linear forwards',
             },
         },
     },
